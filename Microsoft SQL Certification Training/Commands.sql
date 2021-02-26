@@ -33,6 +33,19 @@ Character Datatype
   
   date  yyyy-mm-dd
   
+Primary key constraints?
+
+Used to specify rules for data in table
+
+Not Null : ensure columns can't have a null value
+Defualt : default value for a column when no other value s mentioned
+Unique : ensure all the values are unique, can contain  a null
+Primary key :  not null + unique , uniquelly idetify a record in a table
+
+
+
+
+  
   time  hh:mm:ss
   
   year  yyyy
