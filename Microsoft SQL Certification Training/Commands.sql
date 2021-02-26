@@ -32,7 +32,10 @@ Character Datatype
   Date and Time Data Type
   
   date  yyyy-mm-dd
-  
+  time  hh:mm:ss  
+  year  yyyy
+
+
 Primary key constraints?
 
 Used to specify rules for data in table
@@ -42,11 +45,25 @@ Defualt : default value for a column when no other value s mentioned
 Unique : ensure all the values are unique, can contain  a null
 Primary key :  not null + unique , uniquelly idetify a record in a table
 
+#Database Normailization
+
+rollback :
+ Rollback entire operation to original state if not commit;
+commit :
+ make the changes permanent 
+## ACID Properties
+
+A- Atomicity -Each Transaction is all or nothing
+C- Consisitency- Data should be valid according to all rules
+I- Isolation -Transaction do not affect each other
+D- Durability -Commited data do not lost even if there is power failure
 
 
+
+#Normalization
+
+#Types of Normalization
 
   
-  time  hh:mm:ss
-  
-  year  yyyy
+
   
