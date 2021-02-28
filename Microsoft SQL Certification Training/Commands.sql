@@ -64,6 +64,11 @@ D- Durability -Commited data do not lost even if there is power failure
 
 #Types of Normalization
 
+1 NF
+2 NF
+3 NF
+Boyce Codd or 3.5 Normal form
+
   
 
   
